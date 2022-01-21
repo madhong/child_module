@@ -1,4 +1,4 @@
-# my_app2
+# child_module
 
 ## Project setup
 ```
