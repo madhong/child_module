@@ -1,7 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <div>000</div>
+  <div>子模块</div>
   <ccc></ccc>
 </template>
 
