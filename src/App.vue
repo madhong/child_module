@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <div>子模块</div>
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <hr />
+  <div class="color">子模块</div>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
   <ccc></ccc>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld
+    HelloWorld,
   },
 };
 </script>
@@ -24,5 +25,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.color {
+  color: blue;
+  font-size: 26px;
+  font-weight: 700;
 }
 </style>
