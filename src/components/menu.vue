@@ -7,23 +7,16 @@
     mode="inline"
     @click="handleClick"
   >
-    <a-sub-menu key="sub1" @titleClick="titleClick">
-      <template #icon>
-        <MailOutlined />
-      </template>
-      <template #title>子项目 one</template>
-      <a-menu-item key="1">菜单 1</a-menu-item>
-      <a-menu-item key="2">菜单 2</a-menu-item>
-    </a-sub-menu>
+    <my-sub></my-sub>
   </a-menu>
 </template>
 <script>
 import { defineComponent, ref, watch } from "vue";
-import { MailOutlined } from "@ant-design/icons-vue";
+import mySub from "./subMenu.vue";
 export default defineComponent({
   name: "menu",
   components: {
-    MailOutlined,
+    mySub,
   },
 
   setup() {
