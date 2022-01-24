@@ -1,9 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <hr /> -->
-  <div class="color">子模块</div>
+  <!-- <div class="color">子模块</div> -->
   <HelloWorld msg="Welcome to Your Vue.js App" />
-  <ccc></ccc>
 </template>
 
 <script>
